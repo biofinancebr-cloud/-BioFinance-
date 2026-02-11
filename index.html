@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BioFinance | Educação Financeira</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: #0f1115;
+  color: #eaeaea;
+  line-height: 1.6;
+}
+
+header {
+  padding: 60px 20px;
+  text-align: center;
+  background: linear-gradient(180deg, #141821, #0f1115);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+header p {
+  margin-top: 15px;
+  color: #b5b5b5;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.benefits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: #151924;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.plans {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.plan {
+  border: 1px solid #222;
+  padding: 30px;
+  border-radius: 16px;
+  background: #121622;
+  position: relative;
+}
+
+.plan h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 2rem;
+  margin: 15px 0;
+  font-weight: 700;
+}
+
+.plan ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.plan ul li {
+  margin-bottom: 10px;
+  color: #cfcfcf;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 14px 22px;
+  background: #1f7aff;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #3a8bff;
+}
+
+.payment {
+  background: #151924;
+  padding: 40px;
+  border-radius: 16px;
+  margin-top: 40px;
+}
+
+.pix {
+  background: #0f1115;
+  padding: 20px;
+  border-radius: 10px;
+  word-break: break-all;
+  margin-top: 10px;
+  color: #9fd1ff;
+  font-size: 0.9rem;
+}
+
+footer {
+  padding: 40px 20px;
+  text-align: center;
+  color: #777;
+  font-size: 0.9rem;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>BioFinance</h1>
+  <p>Educação financeira moderna para quem quer organizar, investir e construir independência financeira com segurança.</p>
+</header>
+
+<section>
+  <h2>O que você vai aprender</h2>
+
+  <div class="benefits">
+    <div class="card">
+      <h3>📊 Controle Financeiro</h3>
+      <p>Aprenda a organizar sua renda, gastos e metas com clareza.</p>
+    </div>
+
+    <div class="card">
+      <h3>💰 Investimentos</h3>
+      <p>Entenda renda fixa, variável e como fazer seu dinheiro render.</p>
+    </div>
+
+    <div class="card">
+      <h3>🚀 Independência</h3>
+      <p>Construa patrimônio e saia do ciclo de dívidas e insegurança.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Escolha seu plano</h2>
+
+  <div class="plans">
+
+    <div class="plan">
+      <h3>Plano Básico</h3>
+      <div class="price">R$ 29,99</div>
+      <ul>
+        <li>✔ Finanças pessoais do zero</li>
+        <li>✔ Organização financeira</li>
+        <li>✔ Download imediato</li>
+      </ul>
+      <a class="btn" href="#pagamento">Comprar Básico</a>
+    </div>
+
+    <div class="plan">
+      <h3>Plano Médio</h3>
+      <div class="price">R$ 49,99</div>
+      <ul>
+        <li>✔ Planejamento financeiro completo</li>
+        <li>✔ Introdução aos investimentos</li>
+        <li>✔ Estratégias práticas</li>
+      </ul>
+      <a class="btn" href="#pagamento">Comprar Médio</a>
+    </div>
+
+    <div class="plan">
+      <h3>Plano Prêmio</h3>
+      <div class="price">R$ 79,99</div>
+      <ul>
+        <li>✔ Investimentos avançados</li>
+        <li>✔ Mentalidade de riqueza</li>
+        <li>✔ Independência financeira</li>
+      </ul>
+      <a class="btn" href="#pagamento">Comprar Prêmio</a>
+    </div>
+
+  </div>
+</section>
+
+<section id="pagamento">
+  <div class="payment">
+    <h2>Pagamento via Pix</h2>
+    <p>Após realizar o pagamento, clique no link correspondente ao plano adquirido para fazer o download.</p>
+
+    <h3>Chave Pix (BioFinance)</h3>
+    <div class="pix">
+      2aa19b2b-a1ea-4814-8a02-8265480fd6dc
+    </div>
+
+    <br>
+
+    <h3>Links de Download</h3>
+    <p>⚠️ Acesse somente o plano comprado.</p>
+
+    <p>
+      👉 <a href="https://gamma.app/docs/Plano-basico--lsfkr1ztlh9xnmo" target="_blank" class="btn">
+      Download Básico
+      </a>
+    </p>
+
+    <p>
+      👉 <a href="https://gamma.app/docs/Plano-medio--s4ikfwqdkty13jw" target="_blank" class="btn">
+      Download Médio
+      </a>
+    </p>
+
+    <p>
+      👉 <a href="https://gamma.app/docs/Plano-premio--l7sq7crv50pmh9e" target="_blank" class="btn">
+      Download Prêmio
+      </a>
+    </p>
+
+    <br>
+
+    <p>Suporte: 📧 biofinance.br@gmail.com</p>
+  </div>
+</section>
+
+<footer>
+  © 2026 BioFinance — Educação Financeira
+</footer>
+
+</body>
+</html>
